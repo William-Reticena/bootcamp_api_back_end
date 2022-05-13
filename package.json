@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alan Santos",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^3.2.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-auto": "^0.8.8"
+  }
+}
